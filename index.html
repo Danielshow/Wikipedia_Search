@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> My Wiki Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="script.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="container" id="form">
+        <div class="wiki mb-4"> Wikipedia Search Engine</div>
+        <form class="text-center">
+            <input id="txt_name" type="text" class="form-control" placeholder="Search Wiki or Type URL" autofocus onkeypress="return runScript(event)"
+            />
+            <p type="submit" class="btn btn-primary mt-2 mr-4" id="search">Submit</p>
+            <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" button class="btn btn-default mt-2 random">Random Article</a>
+        </form>
+        <p class="text-center mt-4 dan"> Designed by DanielShow</p>
+    </div>
+    <div class="container">
+        <div class="new"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+</body>
+</html>
