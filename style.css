@@ -1,0 +1,50 @@
+
+#form {
+    font-family: cursive;
+    height: 200px;
+    padding: 10px;
+    position: absolute; 
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom:0;
+  background: linear-gradient(white, black);
+  border-radius: 10px;
+}
+.wiki{
+    text-align: center;
+    font-size: 30px;
+  }
+
+p{
+  color: white;
+}
+@media screen and (max-width: 350px){
+  #form{
+    padding: 5px;
+    width: 100%;
+  }
+  .buttons{
+    width: 100%;
+  } 
+  .wiki{
+    font-size: 20px;
+  }
+  
+}
+
+
+@media screen and (min-width: 351px){
+  .buttons{
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 700px){
+  #form{
+    width: 800px;
+    left: 0;
+    right: 0; 
+  }
+}
