@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Poor+Story');
+.new a{
+  color: blue;
+}
+.new{
+  font-size: 20px;
+  font-family: 'Poor Story', cursive;
+  margin-bottom: 20px;
+}
 
 #form {
     font-family: cursive;
@@ -46,5 +55,10 @@ p{
     width: 800px;
     left: 0;
     right: 0; 
+  }
+  
+  .new{
+    width: 50%;
+    float: left;
   }
 }
