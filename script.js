@@ -41,11 +41,11 @@ function searchme(searchparam) {
       for (let i = 0; i < titleList.length; i++) {
         htmlStr +=
           "<h3><a href = " +
-          titleUrl[0] +
+          titleUrl[i] +
           " target= -blank >" +
           titleList[i] +
           "</a></h3><hr><br/>" +
-          titleContent[0];
+          titleContent[i];
         $(".new").html(htmlStr);
       }
     },
